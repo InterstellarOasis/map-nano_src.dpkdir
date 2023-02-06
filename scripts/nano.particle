@@ -10,34 +10,35 @@ nano/can
 		// can model particle
 		particle
 		{
-			model				models/mapobjects/nano/can/can.md3
-			
-			displacement			0 0 0 -
+			model models/mapobjects/nano/can/can.md3
+
+			displacement 0 0 0 -
 			cullOnStartSolid
 
-			velocityType			static
-			velocityDir			linear
-			velocityMagnitude		150~25%
-			velocity			0 1 0 0
-				
-			accelerationType		static
-			accelerationDir			linear
-			accelerationMagnitude		800
-			acceleration			0 0 -1 0
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 150~25%
+			velocity 0 1 0 0
 
-			radius				0 1.0 -
-			rotation			0 ~360 -
-			bounce				0.8
+			accelerationType static
+			accelerationDir linear
+			accelerationMagnitude 800
+			acceleration 0 0 -1 0
 
-			lifeTime 			3000~0
+			radius 0 1.0 -
+			rotation 0 ~360 -
+			bounce 0.8
+
+			lifeTime 3000~0
 		}
-		
+
 		// ejector settings
-		count 					1
-		delay					0
-		period 					3000 - 0
+		count 1
+		delay 0
+		period 3000 - 0
 	}
 }
+
 // can ejector for the khalsacola vending machine
 // note: this only works with cg_bounceparticles 1
 // can model and texture by Thorn
@@ -48,34 +49,35 @@ nano/can2
 		// can model particle
 		particle
 		{
-			model				models/mapobjects/nano/can/can2.md3
-			
-			displacement			0 0 0 -
+			model models/mapobjects/nano/can/can2.md3
+
+			displacement 0 0 0 -
 			cullOnStartSolid
 
-			velocityType			static
-			velocityDir			linear
-			velocityMagnitude		150~25%
-			velocity			-1 0 0 0
-				
-			accelerationType		static
-			accelerationDir			linear
-			accelerationMagnitude		800
-			acceleration			0 0 -1 0
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 150~25%
+			velocity -1 0 0 0
 
-			radius				0 1.0 -
-			rotation			0 ~360 -
-			bounce				0.8
+			accelerationType static
+			accelerationDir linear
+			accelerationMagnitude 800
+			acceleration 0 0 -1 0
 
-			lifeTime 			3000~0
+			radius 0 1.0 -
+			rotation 0 ~360 -
+			bounce 0.8
+
+			lifeTime 3000~0
 		}
-		
+
 		// ejector settings
-		count 					1
-		delay					0
-		period 					3000 - 0
+		count 1
+		delay 0
+		period 3000 - 0
 	}
 }
+
 // dust with blue and red particles (during the game)
 // original dust shader and texture from the map Uncreation by Who-[Soup]
 // textures edited by Ingar for Nano!
@@ -91,23 +93,23 @@ nano/dust
 			displacement 0 0 0 ~200.0
 			cullOnStartSolid
 
-			velocityType			static
-			velocityDir			linear
-			velocityMagnitude		5
-			velocity			0 0 -1 ~2
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 5
+			velocity 0 0 -1 ~2
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			0 0 -1 ~25
-			accelerationMagnitude		10
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 10
 
 
-			radius				5000 5 2
-			alpha				8000 .8 .2
-			rotation			0 0 ~360
-			bounce				cull
+			radius 5000 5 2
+			alpha 8000 .8 .2
+			rotation 0 0 ~360
+			bounce cull
 
-			lifeTime 			20000
+			lifeTime 20000
 		}
 
 		// displaced blue particle
@@ -117,25 +119,25 @@ nano/dust
 			displacement 0 0 -512 ~200.0
 			cullOnStartSolid
 
-			velocityType			static
-			velocityDir			linear
-			velocityMagnitude		5
-			velocity			0 0 -1 ~2
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 5
+			velocity 0 0 -1 ~2
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			0 0 -1 ~25
-			accelerationMagnitude		10
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 10
 
 
-			radius				5000 5 2
-			alpha				8000 .8 .2
-			rotation			0 0 ~360
-			bounce				cull
+			radius 5000 5 2
+			alpha 8000 .8 .2
+			rotation 0 0 ~360
+			bounce cull
 
-			lifeTime 			15000
+			lifeTime 15000
 		}
-		
+
 		// red particle
 		particle
 		{
@@ -143,25 +145,25 @@ nano/dust
 			displacement 0 0 0 ~200.0
 			cullOnStartSolid
 
-			velocityType			static
-			velocityDir			linear
-			velocityMagnitude		5
-			velocity			0 0 -1 ~2
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 5
+			velocity 0 0 -1 ~2
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			0 0 -1 ~25
-			accelerationMagnitude		10
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 10
 
 
-			radius				5000 5 2
-			alpha				8000 .8 .2
-			rotation			0 0 ~360
-			bounce				cull
+			radius 5000 5 2
+			alpha 8000 .8 .2
+			rotation 0 0 ~360
+			bounce cull
 
-			lifeTime 			20000
+			lifeTime 20000
 		}
-		
+
 		// displaced red particle
 		particle
 		{
@@ -169,29 +171,29 @@ nano/dust
 			displacement 0 0 -512 ~200.0
 			cullOnStartSolid
 
-			velocityType			static
-			velocityDir			linear
-			velocityMagnitude		5
-			velocity			0 0 -1 ~2
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 5
+			velocity 0 0 -1 ~2
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			0 0 -1 ~25
-			accelerationMagnitude		10
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 10
 
 
-			radius				5000 5 2
-			alpha				8000 .8 .2
-			rotation			0 0 ~360
-			bounce				cull
+			radius 5000 5 2
+			alpha 8000 .8 .2
+			rotation 0 0 ~360
+			bounce cull
 
-			lifeTime 			15000
+			lifeTime 15000
 		}
-		
+
 		// ejector settings
-		count 					infinite
-		delay 					0
-		period 					500 - ~10%
+		count infinite
+		delay 0
+		period 500 - ~10%
 	}
 }
 
@@ -207,23 +209,23 @@ nano/dust_blue
 			displacement 0 0 0 ~200.0
 			cullOnStartSolid
 
-			velocityType			static
-			velocityDir			linear
-			velocityMagnitude		5
-			velocity			0 0 -1 ~2
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 5
+			velocity 0 0 -1 ~2
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			0 0 -1 ~25
-			accelerationMagnitude		10
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 10
 
 
-			radius				5000 5 2
-			alpha				8000 .8 .2
-			rotation			0 0 ~360
-			bounce				cull
+			radius 5000 5 2
+			alpha 8000 .8 .2
+			rotation 0 0 ~360
+			bounce cull
 
-			lifeTime 			20000
+			lifeTime 20000
 		}
 
 		// displaced blue particle
@@ -233,29 +235,29 @@ nano/dust_blue
 			displacement 0 0 -512 ~200.0
 			cullOnStartSolid
 
-			velocityType			static
-			velocityDir			linear
-			velocityMagnitude		5
-			velocity			0 0 -1 ~2
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 5
+			velocity 0 0 -1 ~2
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			0 0 -1 ~25
-			accelerationMagnitude		10
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 10
 
 
-			radius				5000 5 2
-			alpha				8000 .8 .2
-			rotation			0 0 ~360
-			bounce				cull
+			radius 5000 5 2
+			alpha 8000 .8 .2
+			rotation 0 0 ~360
+			bounce cull
 
-			lifeTime 			20000
+			lifeTime 20000
 		}
-		
+
 		// ejector settings
-		count 					infinite
-		delay 					0
-		period 					250 - ~10%
+		count infinite
+		delay 0
+		period 250 - ~10%
 	}
 }
 
@@ -271,23 +273,23 @@ nano/dust_red
 			displacement 0 0 0 ~200.0
 			cullOnStartSolid
 
-			velocityType			static
-			velocityDir			linear
-			velocityMagnitude		5
-			velocity			0 0 -1 ~2
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 5
+			velocity 0 0 -1 ~2
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			0 0 -1 ~25
-			accelerationMagnitude		10
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 10
 
 
-			radius				5000 5 2
-			alpha				8000 .8 .2
-			rotation			0 0 ~360
-			bounce				cull
+			radius 5000 5 2
+			alpha 8000 .8 .2
+			rotation 0 0 ~360
+			bounce cull
 
-			lifeTime 			20000
+			lifeTime 20000
 		}
 
 		// displaced red particle
@@ -297,29 +299,29 @@ nano/dust_red
 			displacement 0 0 -512 ~200.0
 			cullOnStartSolid
 
-			velocityType			static
-			velocityDir			linear
-			velocityMagnitude		5
-			velocity			0 0 -1 ~2
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 5
+			velocity 0 0 -1 ~2
 
-			accelerationType		static
-			accelerationDir			linear
-			acceleration			0 0 -1 ~25
-			accelerationMagnitude		10
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~25
+			accelerationMagnitude 10
 
 
-			radius				5000 5 2
-			alpha				8000 .8 .2
-			rotation			0 0 ~360
-			bounce				cull
+			radius 5000 5 2
+			alpha 8000 .8 .2
+			rotation 0 0 ~360
+			bounce cull
 
-			lifeTime 			20000
+			lifeTime 20000
 		}
-		
+
 		// ejector settings
-		count 					infinite
-		delay 					0
-		period 					250 - ~10%
+		count infinite
+		delay 0
+		period 250 - ~10%
 	}
 }
 
@@ -336,27 +338,26 @@ nano/spark
 
 			displacement 0 0 0 0
 
-			velocityType		static
-			velocityDir		linear
-			velocityMagnitude	50
-			velocity		0 0 -1 ~50
+			velocityType static
+			velocityDir linear
+			velocityMagnitude 50
+			velocity 0 0 -1 ~50
 
-			accelerationType	static
-			accelerationDir		linear
-			acceleration		0 0 -1 ~5
-			accelerationMagnitude	250
+			accelerationType static
+			accelerationDir linear
+			acceleration 0 0 -1 ~5
+			accelerationMagnitude 250
 
-			radius		0 3 1
-			alpha		1200 .9 0
-			rotation	0 ~180 ~45
-			bounce		0.0
+			radius 0 3 1
+			alpha 1200 .9 0
+			rotation 0 ~180 ~45
+			bounce 0.0
 
 			lifeTime 1200
-	}
-	
-	count 8
-	delay 500
-	period 10 - ~50%
+		}
+
+		count 8
+		delay 500
+		period 10 - ~50%
 	}
 }
-
